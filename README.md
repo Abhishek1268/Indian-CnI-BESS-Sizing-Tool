@@ -94,70 +94,6 @@ present to a customer or investor
 ## What We Found
 
 ### The battery we sized
-The energy company installs and owns the battery
-The factory pays nothing upfront
-Both parties share the savings the battery generates
-
-
-Think of it like solar rooftop leasing — the factory gets 
-the benefit without the investment risk.
-
----
-
-## The Customer We Used As a Case Study
-
-| Detail | Value |
-|---|---|
-| Customer | xyz |
-| Location | Hyderabad, Telangana |
-| Electricity provider | TSSPDCL |
-| Contract limit | 500 kVA |
-| Problem | Exceeding the limit 9 out of 12 months and paying penalties |
-
----
-
-## What the Tool Does — Step by Step
-
-### Step 1 — Reads the customer's electricity usage data
-Loads 12 months of real usage data recorded every 15 minutes
-(35,136 data points in total)
-
-### Step 2 — Finds the peaks
-Identifies which months the customer is exceeding their 
-contract limit and by how much
-
-### Step 3 — Sizes the battery
-Calculates exactly what size battery is needed in kW and kWh
-accounting for battery chemistry, efficiency and degradation
-
-### Step 4 — Calculates the savings
-Three separate saving streams:
-
-| Saving Type | What It Means | Year 1 Amount |
-|---|---|---|
-| MD Charge Reduction | Lower peak = lower monthly demand bill | INR 6.21 L |
-| Penal Charge Saving | No more contract breaches = no more penalties | INR 2.02 L |
-| ToD Arbitrage | Charge at night (cheap), use during day (expensive) | INR 5.83 L |
-| **Total** | | **INR 14.06 L** |
-
-### Step 5 — Tests two business models
-Compares revenue share vs fixed monthly fee to find 
-which structure actually works
-
-### Step 6 — Runs a 15-year financial model
-Accounts for battery degradation, rising tariffs, 
-loan repayment and discount rate to calculate 
-real-world NPV, ROI and payback period
-
-### Step 7 — Generates an Excel report
-Professional 4-sheet report with charts — ready to 
-present to a customer or investor
-
----
-
-## What We Found
-
-### The battery we sized
 Type : LFP (Lithium Iron Phosphate)
 Power : 110 kW
 Energy : 300 kWh
@@ -308,6 +244,21 @@ Key rates used:
 - Peak surcharge: +INR 1.00/kWh (6-10am and 6-10pm)
 - Off-peak rebate: -INR 1.50/kWh (10pm-6am)
 - Billing demand: higher of actual peak or 80% of contracted demand
+
+---
+## Project Visuals
+
+### Load Profile — Peak Shaving Effect
+![Load Profile](chart_load.png)
+
+### Monthly Savings Breakdown
+![Monthly Savings](chart_monthly.png)
+
+### Company Payback Curve
+![Payback Curve](chart_payback.png)
+
+### Battery Degradation Over 15 Years
+![Battery Degradation](chart_degradation.png)
 
 ---
 
